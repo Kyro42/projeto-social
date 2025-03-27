@@ -35,3 +35,21 @@ iframe#screen{
     width: 268px;
     height: 470px;
 }
+section#bar{
+    text-align: right;
+    position: relative;
+    top: 28%;
+}
+section#bar img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+    box-sizing: border-box;
+}
+section#bar img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.651);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.616);
+    transition: transform 0.2s, border 0.1s;
+}

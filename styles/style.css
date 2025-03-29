@@ -32,13 +32,13 @@ iframe#screen{
     position: relative;
     top: 79px;
     left: 21px;
-    width: 268px;
+    width: 266px;
     height: 470px;
 }
 section#bar{
-    text-align: right;
-    position: relative;
+    position: absolute;
     top: 28%;
+    left: 95%;
 }
 section#bar img{
     width: 50px;
